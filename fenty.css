@@ -1,0 +1,26 @@
+:root {
+  --accent: #7d5ba6;   
+  --bg: #f8f6fc;       
+}
+
+body.fenty-page {
+  background: var(--bg);
+}
+
+.fenty-page h1, 
+.fenty-page h2 {
+  color: #4a2d77;
+}
+
+.fenty-page .card button {
+  background: var(--accent);
+}
+
+.fenty-page .site-header {
+  background: #fff;
+  border-bottom: 2px solid var(--accent);
+}
+
+.fenty-page a:hover {
+  color: var(--accent);
+}

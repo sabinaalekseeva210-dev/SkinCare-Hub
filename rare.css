@@ -1,0 +1,25 @@
+:root {
+  --accent: #d46a83;   
+  --bg: #fff8f9;       
+}
+
+body.rare-page {
+  background: var(--bg);
+}
+
+.rare-page h1, 
+.rare-page h2 {
+  color: #a54260;
+}
+
+.rare-page .card button {
+  background: var(--accent);
+}
+
+.rare-page .site-header {
+  border-bottom: 3px solid var(--accent);
+}
+
+.rare-page a:hover {
+  color: var(--accent);
+}
